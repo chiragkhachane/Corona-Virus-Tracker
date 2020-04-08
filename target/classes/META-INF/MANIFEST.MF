@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: coronavirus-tracker
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Chirag
+Implementation-Vendor-Id: com.chirag
+Build-Jdk: 1.8.0_181
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/coronavirus-tracker
+Created-By: Maven Integration for Eclipse
+
