@@ -13,11 +13,6 @@
 		<version>2.1.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	
-	<properties>
-		<maven.compiler.target>12</maven.compiler.target>
-		<maven.compiler.source>12</maven.compiler.source>
-  	</properties>
 
 	<dependencies>
 		<dependency>
@@ -67,14 +62,6 @@
 						<goals><goal>copy-dependencies</goal></goals>
 				        </execution>
                 		</executions>
-			  </plugin>
-			  <plugin>
-				    <groupId>org.apache.maven.plugins</groupId>
-				    <artifactId>maven-compiler-plugin</artifactId>
-				    <version>3.8.0</version>
-				    <configuration>
-					<release>12</release>
-				    </configuration>
 			  </plugin>
 			  <plugin>
 				<groupId>org.springframework.boot</groupId>
