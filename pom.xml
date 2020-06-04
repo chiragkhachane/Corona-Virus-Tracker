@@ -14,6 +14,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	
+	<properties>
+		<maven.compiler.target>12</maven.compiler.target>
+		<maven.compiler.source>12</maven.compiler.source>
+  	</properties>
 
 	<dependencies>
 		<dependency>
@@ -69,7 +73,7 @@
 				    <artifactId>maven-compiler-plugin</artifactId>
 				    <version>3.8.0</version>
 				    <configuration>
-					<release>14</release>
+					<release>12</release>
 				    </configuration>
 			  </plugin>
 			  <plugin>
