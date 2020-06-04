@@ -14,10 +14,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	
-
-	<properties>
-		<java.version>14</java.version>
-	</properties>
+	
+	<configuration>
+    		<jdkVersion>9</jdkVersion>
+	</configuration>
 
 	<dependencies>
 		<dependency>
