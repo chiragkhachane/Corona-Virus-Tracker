@@ -75,7 +75,7 @@
 			  </plugin>
 			  <plugin>
 				 <configuration>
-    					<jdkVersion>9</jdkVersion>
+    					<jdkVersion>12</jdkVersion>
 				 </configuration> 
 			   </plugin>	  
 		</plugins>
